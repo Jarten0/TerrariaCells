@@ -22,9 +22,9 @@ using Terraria.ModLoader;
 using Terraria.UI;
 using Terraria.UI.Chat;
 using Terraria.UI.Gamepad;
-using TerrariaCells.Common;
+using TerrariaCellsPersonal.Common;
 
-namespace TerrariaCells.Content.UI;
+namespace TerrariaCellsPersonal.Content.UI;
 
 [Autoload(Side = ModSide.Client)]
 public class UISystem : ModSystem

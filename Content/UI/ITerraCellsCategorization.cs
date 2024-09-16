@@ -1,4 +1,4 @@
-namespace TerrariaCells.Content.UI;
+namespace TerrariaCellsPersonal.Content.UI;
 
 public interface ITerraCellsCategorization
 {

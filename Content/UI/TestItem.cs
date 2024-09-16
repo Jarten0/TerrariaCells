@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace TerrariaCells.Content.UI;
+namespace TerrariaCellsPersonal.Content.UI;
 
 [Autoload(Side = ModSide.Both)]
 public class TestItem : Item, ITerraCellsCategorization

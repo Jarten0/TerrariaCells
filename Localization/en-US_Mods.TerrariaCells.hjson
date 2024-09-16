@@ -11,7 +11,7 @@ Configs: {
 
 		DisableZoom: {
 			Label: Disable Zoom Cap
-			Tooltip: "Disables the >175% cap on the game's zoom"
+			Tooltip: Disables the >175% cap on the game's zoom
 		}
 	}
 
@@ -40,6 +40,74 @@ Configs: {
 		HideVanillaInventory: {
 			Label: Hide Vanilla Inventory
 			Tooltip: ""
+		}
+	}
+}
+
+ersonal: {
+	Items: {
+		RoomConnectorItem: {
+			DisplayName: {
+				$parentVal: Room Connector Item
+			}
+
+			Tooltip: {
+				$parentVal: ""
+			}
+		}
+	}
+
+	Configs: {
+		InventoryUiConfiguration: {
+			DisplayName: {
+				$parentVal: Inventory Ui Configuration
+			}
+
+			EnableInventoryChanges: {
+				Label: {
+					$parentVal: Enable Inventory Changes
+				}
+
+				Tooltip: {
+					$parentVal: ""
+				}
+			}
+
+			EnableInventoryLock: {
+				Label: {
+					$parentVal: Enable Inventory Lock
+				}
+
+				Tooltip: {
+					$parentVal: ""
+				}
+			}
+
+			HideVanillaInventory: {
+				Label: {
+					$parentVal: Hide Vanilla Inventory
+				}
+
+				Tooltip: {
+					$parentVal: ""
+				}
+			}
+		}
+
+		TerrariaCellsConfig: {
+			DisplayName: {
+				$parentVal: Terraria Cells Config
+			}
+
+			DisableZoom: {
+				Label: {
+					$parentVal: Disable Zoom
+				}
+
+				Tooltip: {
+					$parentVal: ""
+				}
+			}
 		}
 	}
 }
