@@ -1,31 +1,20 @@
 global using Microsoft.Xna.Framework;
-using MonoMod.Cil;
 using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using MonoMod.Cil;
 using Terraria;
 using Terraria.Graphics;
+using Terraria.Localization;
 using Terraria.ModLoader;
-using TerrariaCells.WorldGen;
+using Terraria.ModLoader.Config;
+using TerrariaCellsPersonal.Content.UI;
 
-namespace TerrariaCells
+namespace TerrariaCellsPersonal
 {
-	//Contributions already present are by no means absolute, conventions are negotiable.
-	public class TerrariaCells : Mod
-	{
-		public override void Load() {
-			Room.LoadRooms(this);
-
-            IL_Player.Update += PatchPlayerSpaceGravity;
-		}
-
-        // TODO: Put this IL edit somewhere better.
-        private static void PatchPlayerSpaceGravity(ILContext ctx) {
-            var cursor = new ILCursor(ctx);
-
-			cursor.GotoNext(i => i.MatchLdloc3() && i.Next.MatchMul());
-            cursor.Remove();
-            cursor.EmitLdcR4(1.0f);
-        }
-	}
+    //Contributions already present are by no means absolute, conventions are negotiable.
+    public class TerrariaCells : Mod { }
 
     public class TerraCellsSystem : ModSystem
     {

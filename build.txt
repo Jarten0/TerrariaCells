@@ -1,4 +1,4 @@
-displayName = Terraria Cells
-author = Sorbet and co.
+displayName = Terraria Cells Personal
+author = Sorbet and co. (Jarten's version)
 version = 0.1
 modReferences = StructureHelper

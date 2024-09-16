@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace TerrariaCells.Content.Tiles 
+namespace TerrariaCellsPersonal.Content.Tiles 
 {
 	public class RoomConnectorTile : ModTile
 	{
