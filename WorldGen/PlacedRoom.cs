@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace TerrariaCells.WorldGen;
+namespace TerrariaCellsPersonal.WorldGen;
 
 internal class PlacedRoom
 {

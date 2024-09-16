@@ -5,7 +5,7 @@ using Terraria.ID;
 using System.Collections.Generic;
 using Terraria.ModLoader.IO;
 using Terraria.DataStructures;
-using TerrariaCells.Content.Tiles;
+using TerrariaCellsPersonal.Content.Tiles;
 
 public enum Dir {
 	Up,
@@ -25,7 +25,7 @@ public struct Socket {
 	}
 }
 
-namespace TerrariaCells.Utils
+namespace TerrariaCellsPersonal.Utils
 {
 	public class RoomWrapper
 	{

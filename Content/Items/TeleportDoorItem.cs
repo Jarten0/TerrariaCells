@@ -1,6 +1,6 @@
 ﻿using Terraria.ModLoader;
 
-namespace TerrariaCells.Content.Items;
+namespace TerrariaCellsPersonal.Content.Items;
 
 public class TeleportDoorItem : ModItem
 {

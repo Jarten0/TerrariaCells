@@ -1,8 +1,8 @@
 using Terraria;
 using Terraria.ModLoader;
-using TerrariaCells.Content.Tiles;
+using TerrariaCellsPersonal.Content.Tiles;
 
-namespace TerrariaCells.Content.Items 
+namespace TerrariaCellsPersonal.Content.Items 
 {
 	public class PylonMarkerItem : ModItem
 	{

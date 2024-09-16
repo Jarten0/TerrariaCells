@@ -1,8 +1,8 @@
 using Terraria;
 using Terraria.ModLoader;
-using TerrariaCells.Utils;
+using TerrariaCellsPersonal.Utils;
 
-namespace TerrariaCells.Content.Items
+namespace TerrariaCellsPersonal.Content.Items
 {
 	public class BuilderAccessory : ModItem
 	{

@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaCells.Common.Systems
+namespace TerrariaCellsPersonal.Common.Systems
 {
     public class RemoveThornsDetour : ModSystem
     {

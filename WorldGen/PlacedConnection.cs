@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TerrariaCells.WorldGen;
+namespace TerrariaCellsPersonal.WorldGen;
 
 internal class PlacedConnection
 {

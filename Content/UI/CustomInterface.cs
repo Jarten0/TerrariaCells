@@ -22,6 +22,7 @@ using Terraria.ModLoader;
 using Terraria.UI;
 using Terraria.UI.Chat;
 using Terraria.UI.Gamepad;
+using TerrariaCells.Content.UI;
 using TerrariaCellsPersonal.Common;
 
 namespace TerrariaCellsPersonal.Content.UI;

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TerrariaCells.WorldGen;
+namespace TerrariaCellsPersonal.WorldGen;
 
 internal class RoomList
 {

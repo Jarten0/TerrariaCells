@@ -9,10 +9,10 @@ using Terraria.Map;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Default;
 using Terraria.ObjectData;
-using TerrariaCells.Content.Items;
-using TerrariaCells.Content.TileEntities;
+using TerrariaCellsPersonal.Content.Items;
+using TerrariaCellsPersonal.Content.TileEntities;
 
-namespace TerrariaCells.Content.Tiles;
+namespace TerrariaCellsPersonal.Content.Tiles;
 
 public class HivePylonTile : ModPylon
 {

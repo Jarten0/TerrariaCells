@@ -1,7 +1,7 @@
 ﻿using Terraria.GameInput;
 using Terraria.ModLoader;
 
-namespace TerrariaCells;
+namespace TerrariaCellsPersonal;
 
 public class Keybinds : ModSystem
 {

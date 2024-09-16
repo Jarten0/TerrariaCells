@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.ModLoader.IO;
-using TerrariaCells.Content.Tiles;
+using TerrariaCellsPersonal.Content.Tiles;
 
-namespace TerrariaCells.WorldGen
+namespace TerrariaCellsPersonal.WorldGen
 {
 
 	internal enum RoomConnectionSide

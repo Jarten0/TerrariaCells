@@ -1,10 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-<<<<<<< HEAD
-=======
 using TerrariaCellsPersonal.Content.Tiles;
->>>>>>> origin/main
 
 namespace TerrariaCellsPersonal.Content.Items
 {

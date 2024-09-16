@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 
-namespace TerrariaCells.Content.Tiles;
+namespace TerrariaCellsPersonal.Content.Tiles;
 
 public class TeleportDoorTile : ModTile
 {

@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.IO;
 using Terraria.WorldBuilding;
 
-namespace TerrariaCells.WorldGen;
+namespace TerrariaCellsPersonal.WorldGen;
 
 class GenerateRoomsPass : GenPass
 {

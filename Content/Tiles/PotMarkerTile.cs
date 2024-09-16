@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace TerrariaCells.Content.Tiles 
+namespace TerrariaCellsPersonal.Content.Tiles 
 {
 	public class PotMarkerTile : ModTile 
 	{

@@ -1,6 +1,6 @@
 ﻿using Terraria.ModLoader.Default;
 
-namespace TerrariaCells.Content.TileEntities;
+namespace TerrariaCellsPersonal.Content.TileEntities;
 
 public class PylonTileEntity
 {

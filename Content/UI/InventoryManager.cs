@@ -1,16 +1,12 @@
 using System.Collections.Generic;
-using Microsoft.Xna.Framework;
-using Mono.Cecil.Cil;
-using MonoMod.RuntimeDetour;
-using Stubble.Core.Contexts;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.UI;
-using TerrariaCellsPersonal.Common;
+using TerrariaCellsPersonal;
+using TerrariaCellsPersonal.Content.UI;
 
-namespace TerrariaCellsPersonal.Content.UI;
+namespace TerrariaCells.Content.UI;
 
 [Autoload(Side = ModSide.Both)]
 public class InventoryManager : ModSystem, IEntitySource
@@ -322,7 +318,7 @@ public class InventoryManager : ModSystem, IEntitySource
                         return true;
                     }
                 }
-                player.DropItem(this, new Microsoft.Xna.Framework.Vector2(), ref item);
+                player.DropItem(this, new Vector2(), ref item);
                 return false;
 
             case TerraCellsItemCategory.Weapon:
@@ -337,7 +333,7 @@ public class InventoryManager : ModSystem, IEntitySource
                         }
                         if (i >= 13)
                         {
-                            player.DropItem(this, new Microsoft.Xna.Framework.Vector2(), ref item);
+                            player.DropItem(this, new Vector2(), ref item);
                             return false;
                         }
                     }
@@ -364,7 +360,7 @@ public class InventoryManager : ModSystem, IEntitySource
                         }
                         if (i >= 13)
                         {
-                            player.DropItem(this, new Microsoft.Xna.Framework.Vector2(), ref item);
+                            player.DropItem(this, new Vector2(), ref item);
                             return false;
                         }
                     }
@@ -390,7 +386,7 @@ public class InventoryManager : ModSystem, IEntitySource
                         }
                         if (i >= 13)
                         {
-                            player.DropItem(this, new Microsoft.Xna.Framework.Vector2(), ref item);
+                            player.DropItem(this, new Vector2(), ref item);
                             return false;
                         }
                     }
@@ -408,7 +404,7 @@ public class InventoryManager : ModSystem, IEntitySource
                     }
                     if (i >= 13)
                     {
-                        player.DropItem(this, new Microsoft.Xna.Framework.Vector2(), ref item);
+                        player.DropItem(this, new Vector2(), ref item);
                         return false;
                     }
                 }
@@ -422,7 +418,7 @@ public class InventoryManager : ModSystem, IEntitySource
                         return true;
                     }
                 }
-                player.DropItem(this, new Microsoft.Xna.Framework.Vector2(), ref item);
+                player.DropItem(this, new Vector2(), ref item);
                 return false;
         }
     }

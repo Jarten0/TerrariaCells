@@ -2,7 +2,7 @@
 using Terraria.ModLoader;
 using Terraria.WorldBuilding;
 
-namespace TerrariaCells.WorldGen {
+namespace TerrariaCellsPersonal.WorldGen {
 	class WorldGen : ModSystem {
 		public override void ModifyWorldGenTasks(List<GenPass> tasks, ref double totalWeight) {
 

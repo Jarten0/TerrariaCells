@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.GameContent;
 
-namespace TerrariaCells.Utils
+namespace TerrariaCellsPersonal.Utils
 {
 	public class GlobalTileConfig : GlobalTile
 	{

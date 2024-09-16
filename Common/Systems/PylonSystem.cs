@@ -9,7 +9,7 @@ using Terraria.ObjectData;
 using Terraria.Map;
 using Terraria.ModLoader.IO;
 
-namespace TerrariaCells.Common.Systems
+namespace TerrariaCellsPersonal.Common.Systems
 {
 	public class WorldPylonSystem : ModSystem
 	{
