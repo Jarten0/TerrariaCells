@@ -1,6 +1,6 @@
 using Terraria.ModLoader.Config;
 
-namespace TerrariaCells
+namespace TerrariaCellsPersonal
 {
     public class TerrariaCellsConfig : ModConfig
     {

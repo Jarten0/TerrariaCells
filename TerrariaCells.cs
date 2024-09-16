@@ -8,9 +8,9 @@ using Terraria.Graphics;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
-using TerrariaCells.Content.UI;
+using TerrariaCellsPersonal.Content.UI;
 
-namespace TerrariaCells
+namespace TerrariaCellsPersonal
 {
     //Contributions already present are by no means absolute, conventions are negotiable.
     public class TerrariaCells : Mod { }

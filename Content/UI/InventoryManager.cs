@@ -8,9 +8,9 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.UI;
-using TerrariaCells.Common;
+using TerrariaCellsPersonal.Common;
 
-namespace TerrariaCells.Content.UI;
+namespace TerrariaCellsPersonal.Content.UI;
 
 [Autoload(Side = ModSide.Both)]
 public class InventoryManager : ModSystem, IEntitySource

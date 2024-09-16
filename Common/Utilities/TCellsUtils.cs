@@ -10,7 +10,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Utilities.Terraria.Utilities;
 
-namespace TerrariaCells.Common.Utilities
+namespace TerrariaCellsPersonal.Common.Utilities
 {
     public class TCellsUtils
     {

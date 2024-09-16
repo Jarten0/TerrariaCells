@@ -5,7 +5,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
 
-namespace TerrariaCells.Common.ModPlayers
+namespace TerrariaCellsPersonal.Common.ModPlayers
 {
 	public class UIPlayer : ModPlayer
 	{

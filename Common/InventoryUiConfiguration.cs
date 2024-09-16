@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using Terraria.ModLoader.Config;
 
-namespace TerrariaCells.Common;
+namespace TerrariaCellsPersonal.Common;
 
 public class InventoryUiConfiguration : ModConfig
 {
